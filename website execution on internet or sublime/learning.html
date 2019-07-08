@@ -77,15 +77,58 @@ F12 gives u the developer tool which is very helpful on the web
 					<!-- table data, sort of like data for an array-->
 					<td>Albert Jordaan</td>
 					<td>albert.jordaan@outlook.com</td>
+					<td>20</td>
+				</tr>
+				<tr>
 					<td>Sam Hewitt</td>
 					<td>sjhewitt123@hotmail.com</td>
-					<td>35</td>
-					<!-- going to look ugly but that is because we have no css markup yet integrated into the website-->
+					<td>26</td>
 				</tr>
+					<td>John Doe</td>
+					<td>John.Doe@fakeemail.com</td>
+					<td>36</td>
+				</tr>
+
+				<!-- going to look ugly but that is because we have no css markup yet integrated into the website-->
 			</tbody>
 
 		</table>
-		<div style="margin-top": 500pc
+		<br>
+		<form action="process.php" method="POST">
+			<div>
+				<label> First Name</label>
+				<input type="text" name="first-name">
+			</div>
+			<br>
+			<div>
+				<label> Last Name</label>
+				<input type="text" name="last-name">
+			</div>
+			<br>
+			<div>
+				<label> Email</label>
+				<input type="Email" name="user-email">
+			</div>
+			<br>
+			<div>
+				<label>Message</label>
+				<textarea name="Message"></textarea>
+				<!-- text are is a beigger area-->
+			</div>
+			<br>
+			<div>
+				<label>Gender</label>
+					<select name="Gender">
+						<option value= "male">Male</option>
+						<option value= "Female">Female</option>
+					</select>
+				<!-- text are is a beigger area-->
+			</div>
+		</form>
+
+		<!-- With html we can create the look of the form but cannot add functionality to the form unless you have php or some sort of functionality. action is the attribute -->
+		<!-- POST is used to add data to a database, GET is used to submit it, and you will see the data filled in the URL so not very safe. More advanced server side programming.-->
+		<div style="margin-top": 500px></div>
 	</body>
 </html>
 <!-- tags can either be inline or block level elements
