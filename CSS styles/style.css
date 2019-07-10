@@ -1,3 +1,11 @@
-h1{
-   color:green;
+body{
+   background-color:#f4f4f4;
+   color:#555555;
+
+   font-family:Alegreya;
+   font-size: 16px;
+   font-weight: normal;
+
+   /*shorter way of doing it:
+   font:normal 16px Alegreya*/
   }
