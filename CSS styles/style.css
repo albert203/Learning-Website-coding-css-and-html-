@@ -38,10 +38,21 @@ a:visited{
 }
  do not know how to do yet but when vistited it stays that colour*/
 /*whenever it is clicked on for a short second it turns green*/
+
 .container{
    width: 80%;
    margin: auto;
    /*margin is spacing around an element*/
+}
+.button{
+ background-color: #000;
+ color:#fff;
+ padding: 8px 10px;
+ border:none;  
+}
+.button: hover{
+   background : red;
+   color: #fff;
 }
 
 .box-1{
@@ -86,11 +97,45 @@ a:visited{
 .categories ul{
    /*has a default padding of 4*/
    padding: 0;
+   padding-left: 20px;
    list-style: square;
    list-style: none; /*removes bullet points*/
 }
 .categories li{
    padding-bottom: 6px;
    border-bottom: dotted 1px #333;
-   list-style-image: url('../website folder/check.png');
-   }
+   /* need photoshop to adjust size for for now I am commenting out the code:;
+   list-style-image: url('../website folder/check.png'); */
+}
+.my-form{
+   padding: 20px;
+}
+.my-form .form-group{
+   padding-bottom: 15px;
+}
+.my-form label{
+   display:block;
+}
+.my-form input[type=text], .my-form textarea{
+   padding:8px;
+   width: 100%;
+}
+.my-form input[type="submit"]{
+   background-color: #000;
+   color:#fff;
+   padding: 10px;
+   border: none; 
+}
+.my-form textarea{
+   background-color: #00BFFF;
+   color:#fff;
+}
+.block{
+    float:left;
+    width:33.3%;
+    text-align:center;
+    border: 1px solid #ccc;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
