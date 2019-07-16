@@ -183,6 +183,7 @@ a:visited{
 .fix-me{
    position: fixed;
    top: 400px;
+
 }
 .list-items li:first-child{
    background: red;
