@@ -11,9 +11,9 @@ body{
 	margin:auto;
 	overflow: hidden;
 }
-#container-nav{
-	width: 100%;
-	margin:auto;
+.container-nav{
+	width: 20%;
+	margin:left;
 	overflow: hidden;
 }
 #main-header{
@@ -32,7 +32,7 @@ body{
 }
 #navbar ul{
 	list-style: none;
-	border:5px red solid;
+	
 }
 #navbar li{
 	line-height: 2.5em;
@@ -64,6 +64,20 @@ body{
 	padding-right: 30px;
 }
 .box-1{
-	border: 100px red solid ;
+	border-right: 5px #000 solid;
+	border-top: 5px #000 solid;
+	border-bottom: 5px #000 solid;
+	padding-right: 10px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	position: fixed;
+	background-color: #fff;
+	font-family: oswald,Tahoma,Helvetica,FreeSans,sans-serif;
+}
+.box-1 a{
+	margin-left: -30px;
+	background-color: #fff; 
+
+
 }
 
