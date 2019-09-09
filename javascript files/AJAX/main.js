@@ -24,7 +24,6 @@ function loadText(){
         document.getElementById('text').innerHTML = 'Not Found';
       }
     }
-  
     xhr.onerror = function(){
       console.log('Request Error...');
     }
