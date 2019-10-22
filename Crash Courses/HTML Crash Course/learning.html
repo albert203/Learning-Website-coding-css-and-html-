@@ -56,7 +56,7 @@ F12 gives u the developer tool which is very helpful on the web
 			<!-- press lorum then tab-->
 			Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 			tempor <strong> <!--strong text will be bold by defualt-->incididunt ut labore</strong> et dolore magna aliqua. Ut enim ad minim veniam,
-			quis nostrud <em> exercitation ullamco </em> <!-- em means that that part of the text is empahisized (defualt in italics but can be changed--> laboris nisi ut aliquip<a href="http://google.com"> ex ea commodo </a> <!-- <a href= "(put in the link)" </a> to put in a hyperlink-->
+			<!-- quis nostrud <em> exercitation ullamco </em> em means that that part of the text is empahisized (defualt in italics but can be changed--> laboris nisi ut aliquip<a href="http://google.com" target="_black"> <!--target="_blank" opens up new tab in link--> ex ea commodo </a> <!-- <a href= "(put in the link)" </a> to put in a hyperlink -->
 			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
 			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
 			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
@@ -109,6 +109,10 @@ F12 gives u the developer tool which is very helpful on the web
 				<!-- going to look ugly but that is because we have no css markup yet integrated into the website-->
 			</tbody>
 
+			<br/>
+			<hr>
+			<br/>
+
 		</table>
 		<br>
 		<form action="process.php" method="POST">
@@ -117,6 +121,7 @@ F12 gives u the developer tool which is very helpful on the web
 				<input type="text" name="first-name" placeholder="Enter First Name">
 				<!--placeholders hold until changed-->
 			</div>
+			<!-- labels ands inputs are inline elements so we wrap them in a div to move to the next line-->
 			<br>
 
 			<div>
@@ -168,10 +173,10 @@ F12 gives u the developer tool which is very helpful on the web
 		
 		<button>Click Me</button>
 		<!-- with <button> command you can assign things for it to link to or do, but will not cover that for now-->
-
+		<br/>
 		<!-- Image-->
-		<a href="..\website folder\picture.jpg">
-			<img src="..\website folder\picture.jpg" alt="Error loading image" width="350">
+		<a href="https://cdn.i-scmp.com/sites/default/files/styles/768x768/public/d8/images/methode/2019/03/16/35e584f4-46f3-11e9-b5dc-9921d5eb8a6d_image_hires_194000.JPG?itok=nVKrf1-W&v=1552736407">
+			<img src="./img/picture.jpg" alt="Error loading image" width="350">
 		</a> 
 		<!-- put in the source of the picture (aka the source, src="") It recognises where the picture is due toit being in the same folder-->
 		<!-- alt= is the text it displays if the image could not be loaded, can also display the image in a certain size by using height= -->
