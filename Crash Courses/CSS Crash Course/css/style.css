@@ -5,7 +5,6 @@
 }
 */
 body{
-
    background-color:#f4f4f4;
    color:#555555;
 
@@ -50,7 +49,7 @@ a:visited{
  padding: 8px 10px;
  border:none;  
 }
-.button: hover{
+.button:hover{
    background : red;
    color: #fff;
 }
@@ -69,7 +68,7 @@ a:visited{
       /*Same as above*/
       border: 5px red solid;
       border-width: 3px
-      border-bottom-width:10px;
+      border-bottom-width: 10px;
       border-top-style: solid;
       /* can use solid,doubled, dashed, and dotted...*/
       padding-top: 20px;
